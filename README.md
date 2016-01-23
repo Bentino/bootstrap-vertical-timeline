@@ -9,26 +9,14 @@ Timeline style content display component for Twitter Bootstrap™
 
 การนำไปใช้งาน ทำได้ง่ายมากๆ โดยมีขั้นตอนเล็กน้อย ดังนี้
 
-* 
-    ### Construct HTML
-
-    #### 1.
+1. ### Construct HTML
 
     สร้าง HTML Element ให้ตรงกับโครงสร้างที่กำหนดไว้ (ดูโครงสร้างทั้งหมดที่ ตัวอย่าง)
 
-* 
-
-    ### CSS
-
-    #### 2.
+2. ### CSS
 
     Include CSS ชื่อ timeline.css
 
 
-* 
-
-    ### Done
-
-    #### 3.
-
+3. ### Done
     เสร็จแล้ว ง่ายไหม?
