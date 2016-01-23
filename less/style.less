@@ -1,0 +1,65 @@
+@default: #f4f4f4;
+@green: #99ba01;
+@blue: #01b1da;
+@yellow: #ffd200;
+@red: #d47b88;
+
+.navbar {
+  background-color: @blue;
+  background-image: none;
+  color: #fff;
+  border-radius: 0;
+  border: none;
+  @media only screen and (max-width: 767px) {
+    background-color: transparent;
+  }
+  .navbar-header {
+    @media only screen and (max-width: 767px) {
+      background-color: @blue;
+    }
+    .navbar-brand {
+      color: #333;
+      font-weight: bold;
+    }
+    .navbar-toggle {
+      background-color: @yellow;
+      border-radius: 0;
+      border: none;
+    }
+  }
+  #navbar-collapse {
+    ul {
+      > li {
+        > a {
+          color: #333;
+        }
+      }
+      > li.active {
+        > a {
+          background-image: none;
+          background-color: @yellow;
+        }
+      }
+    }
+  }
+  #navbar-collapse.navbar-collapse.collapse.in {
+    ul {
+      li {
+        a {
+          
+        }
+      }
+    }
+  }
+}
+
+#introduction {
+  text-align: center;
+}
+
+#output {
+  margin-top: 45px;
+  h3 {
+    text-align: center;
+  }
+}

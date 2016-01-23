@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Vertical Timeline</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="bootstrap/css/bootstrap-theme.min.css" />
+  <link rel="stylesheet" href="css/timeline.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <nav class="navbar navbar-default">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">Vertical Timeline</a>
+      </div>
+  
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li class=""><a href="index.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+          <li class="active"><a href="demo.html"><span class="glyphicon glyphicon-wrench"></span> Demo</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+  
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div id="demo">
+          <h2>Vertical Timeline</h2>
+          <p>โครงสร้าง HTML ทั้งหมดของ Vertical timeline</p>
+          <ul>
+            <li>timeline</li>
+            <ul>
+              <li>timeline-item #1</li>
+              <ul>
+                <li>timeline-image</li>
+                <li>timeline-content</li>
+                <ul>
+                  <li>title</li>
+                </ul>
+              </ul>
+              <li>timeline-item #2</li>
+            </ul>
+          </ul>
+        </div>
+        <div id="code">
+          <h3>HTML Code</h3>
+          <pre>
+&lt;ul class="timeline"&gt;
+  &lt;li class="timeline-item"&gt;
+    &lt;div class="timeline-image red"&gt;
+      &lt;span class="glyphicon glyphicon-th-large" aria-hidden="true"&gt;&lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div class="timeline-content"&gt;
+      &lt;h3 class="title"&gt;Lorem ipsum dolor sit amet&lt;/h3&gt;
+      &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum non nisl dapibus est gravida ornare. Nullam laoreet lacus pretium ante dignissim, eu luctus risus interdum.&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li class="timeline-item"&gt;
+    &lt;div class="timeline-image yellow"&gt;
+      &lt;span class="glyphicon glyphicon-tint" aria-hidden="true"&gt;&lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div class="timeline-content"&gt;
+      &lt;h3 class="title"&gt;Vestibulum sapien odio&lt;/h3&gt;
+      &lt;p&gt;Vestibulum sapien odio, interdum nec odio faucibus, tincidunt porttitor enim. Nunc blandit neque quis suscipit placerat.&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li class="timeline-item"&gt;
+    &lt;div class="timeline-image green"&gt;
+      &lt;span class="glyphicon glyphicon-ok" aria-hidden="true"&gt;&lt;/span&gt;
+    &lt;/div&gt;
+    &lt;div class="timeline-content"&gt;
+      &lt;h3 class="title"&gt;Nam et lacus neque&lt;/h3&gt;
+      &lt;p&gt;Nam et lacus neque. Ut dictum massa arcu, non tristique neque laoreet at. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla facilisi.&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+          </pre>
+        </div>
+        <div id="output">
+          <h3>Output</h3>
+          <ul class="timeline">
+          	<li class="timeline-item">
+          		<div class="timeline-image red">
+          			<span class="glyphicon glyphicon-th-large" aria-hidden="true"></span>
+          		</div>
+          		<div class="timeline-content">
+          			<h3 class="title">Lorem ipsum dolor sit amet</h3>
+          			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum non nisl dapibus est gravida ornare. Nullam laoreet lacus pretium ante dignissim, eu luctus risus interdum.</p>
+          		</div>
+          	</li>
+          	<li class="timeline-item">
+          		<div class="timeline-image yellow">
+          			<span class="glyphicon glyphicon-tint" aria-hidden="true"></span>
+          		</div>
+          		<div class="timeline-content">
+          			<h3 class="title">Vestibulum sapien odio</h3>
+          			<p>Vestibulum sapien odio, interdum nec odio faucibus, tincidunt porttitor enim. Nunc blandit neque quis suscipit placerat.</p>
+          		</div>
+          	</li>
+          	<li class="timeline-item">
+          		<div class="timeline-image green">
+          			<span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
+          		</div>
+          		<div class="timeline-content">
+          			<h3 class="title">Nam et lacus neque</h3>
+          			<p>Nam et lacus neque. Ut dictum massa arcu, non tristique neque laoreet at. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla facilisi.</p>
+          		</div>
+          	</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <script src="js/jquery-1.12.0.min.js" charset="utf-8"></script>
+  <script src="bootstrap/js/bootstrap.min.js" charset="utf-8"></script>
+  
+</body>
+</html>
