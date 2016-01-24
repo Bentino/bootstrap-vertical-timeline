@@ -5,6 +5,15 @@ Timeline style content display component for Twitter Bootstrap™
 
 คือ component สำหรับการแสดงผลแบบ timeline เพื่อให้การนำเสนอดูน่าสนใจมากยิ่งขึ้น สามารถประยุกต์ใช้ได้หลากหลายตามความต้องการ
 
+### ลำดับโครงสร้าง HTML
+
+* timeline
+    * timeline-item #1
+        * timeline-image
+        * timeline-content
+            * title
+    * timeline-item #2
+
 ### วิธีการใช้งาน
 
 การนำไปใช้งาน ทำได้ง่ายมากๆ โดยมีขั้นตอนเล็กน้อย ดังนี้
